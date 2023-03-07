@@ -126,3 +126,6 @@ Read more about the above in the [Alchemy SDK Surface docs](https://docs.alchemy
 - What transfers did an address receive this year?
 
 Good luck and have fun!
+
+## My Solution
+I've used alchemy.core.getBlockWithTransactions(blockNumber) to get the details of the latest mined block. Then I am rendereing the no. of transactions, transaction hash, from address and to address.
